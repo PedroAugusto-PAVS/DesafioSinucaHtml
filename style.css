@@ -1,0 +1,552 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mesafundo {
+    position: absolute;
+    border: 20px solid #996633;
+    border-radius: 30px;
+    margin-top: 50%;
+    width: 800px;
+    height: 400px;
+    background-color: #0e7401;    
+}
+.sombratop {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    top: 0px;
+    background-color: rgb(2, 85, 2);
+    width: 750px;
+    height: 10px;
+}
+
+.sombraleft {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(2, 85, 2);
+    width: 10px;
+    height: 355px;
+}
+
+.sombraright {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(2, 85, 2);
+    width: 10px;
+    height: 355px;
+}
+
+.sombrabottom {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(2, 85, 2);
+    width: 750px;
+    height: 10px;
+}
+
+.buracos {
+    position: absolute;
+    margin-top: 0%;
+    width: 815px;
+    height: 420px;  
+}
+.cacapa1 {
+    border: solid goldenrod 2px ;
+    border-bottom: 0px;
+    border-right: 0px;    
+    position: absolute;
+    background-color: black;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.cacapa2 {
+    border: solid goldenrod 2px ;
+    border-top: 0px;
+    border-right: 0px;
+    position: absolute;
+    background-color: black;
+    left: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.cacapa3 {
+    border: solid goldenrod 2px ;
+    border-bottom: 0px;
+    border-left: 0px;
+    position: absolute;
+    background-color: black;
+    right: 5px;
+    top: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.cacapa4 {
+    border: solid goldenrod 2px ;
+    border-top: 0px;
+    border-left: 0px;
+    position: absolute;
+    background-color: black;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.cacapa5 {
+    border: solid goldenrod 2px ;
+    border-bottom: 0px;
+    position: absolute;
+    background-color: black;
+    top: 1px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.cacapa6 {
+    border: solid goldenrod 2px ;
+    border-top: 0px;
+    position: absolute;
+    background-color: black;
+    bottom: 1px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+@keyframes taco {
+    0%{transform: translateX(-30px);}
+    100%{transform: translateX(100px);}
+}
+
+.taco {
+    animation-name: taco;
+    position: absolute;
+    background-color: #996633;
+    border: solid black 2px;
+    border-radius: 20%;
+    left: 20px;
+    height: 4px;
+    width: 250px;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes bolaBranca {
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(250px);}  
+}
+.bolas {
+    right: 0px;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+
+
+}
+.bolaBranca {
+    background-color: wheat;
+    left: 40%;
+    border-radius: 50%;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    animation-name: bolaBranca;
+    animation-delay: 1.5s;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes bola1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-568px, 189px);
+        opacity: 0.3;
+    }
+}
+
+.bola1 {
+    border: solid 2px black;
+    position:absolute;
+    right: 52%;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola1;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(190px, 180px);
+        opacity: 0.5;
+    }
+}
+
+.bola2 {
+    border: solid 2px black;
+    position:absolute;
+    top: 50%;
+    background-color: orangered;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola2;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola3 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(190px, -178px);
+        opacity: 0.3;
+    }
+}
+.bola3 {
+    border: solid 2px black;
+    position:absolute;
+    bottom: 50%;
+    background-color: blue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola3;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola4 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(20px, 20px);  
+    }
+}
+
+.bola4 {
+    border: solid 2px black;
+    position:absolute;
+    left: 210px;
+    bottom: 33%;
+    background-color: rgb(3, 80, 3);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola4;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola5 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(30px, -20px);
+        
+    }
+}
+
+.bola5 {
+    border: solid 2px black;
+    position:absolute;
+    left: 210px;
+    bottom: 45%;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola5;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola6 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(20px, -20px);
+        
+    }
+}
+
+.bola6 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 208px;
+    bottom: 57%;
+    background-color: rgb(245, 190, 88);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola6;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola7 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(40px, -20px);
+        
+    }
+}
+
+.bola7 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 227px;
+    bottom: 64%;
+    background-color: rgb(165, 4, 4);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola7;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola8 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(40px, -10px);
+        
+    }
+}
+
+.bola8 {
+    border: solid 2px black;
+    position:absolute;
+    left: 230px;
+    bottom: 53%;
+    background-color: rgb(32, 32, 32);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola8;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola9 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(50px, 50px);
+        
+    }
+}
+
+.bola9 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 231px;
+    bottom: 41.5%;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola9;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola10 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(20px, 20px);
+        
+    }
+}
+
+.bola10 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 232px;
+    bottom: 30%;
+    background-color: blue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola10;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola11 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(50px, 10px);
+        
+    }
+}
+
+.bola11 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 245px;
+    bottom: 70%;
+    background-color: rgb(228, 66, 3);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola11;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola12 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(81px, -20px);
+        
+    }
+}
+
+.bola12 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 249px;
+    bottom: 58.5%;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola12;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola13 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(80px, 50px);
+        
+    }
+}
+
+.bola13 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 249px;
+    bottom: 47%;
+    background-color: rgb(245, 190, 88);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola13;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola14 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100px, -20px);
+        
+    }
+}
+
+.bola14 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 249px;
+    bottom: 36%;
+    background-color:rgb(2, 85, 2);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola14;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bola15 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(120px, 0px);
+        
+    }
+}
+
+.bola15 {
+    border: solid 2px black ;
+    position:absolute;
+    left: 250px;
+    bottom: 25%;
+    background-color:rgb(165, 4, 4);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    animation-name: bola15;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
